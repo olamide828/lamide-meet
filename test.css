@@ -1,0 +1,32 @@
+body {
+    height: 200vh;
+}
+
+.btn {
+    position: sticky;
+    top: 0px;
+    background-color: red;
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.btn button {
+    position: fixed;
+}
+
+.list-container {
+    display: flex;
+    gap: 20px;
+} 
+
+.lang ul {
+    display: flex;
+    list-style: none;
+    justify-content: center;
+}
+
+.lang ul:first-child {
+    margin-right: 10px;
+    font-size: 18px;
+}
